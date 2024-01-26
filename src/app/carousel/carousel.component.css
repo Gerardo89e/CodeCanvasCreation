@@ -1,0 +1,27 @@
+/*body {
+    background: #ecf0f1;
+  }
+  
+  .wrap {
+    width: 800px;
+    margin: 30px auto;
+  }*/
+  .picsum-img-wrapper {
+    width: 100%; /* Ensure the wrapper takes up the full width */
+    height: 100%; /* Ensure the wrapper takes up the full height */
+    overflow: hidden; /* Hide any overflow content */
+  }
+  
+  .picsum-img-wrapper img {
+    width: 100%; /* Make the image fill the width of its container */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px; /* Adjust the max-width to your preference */
+    margin: 100px auto 0; /* Center the container and add margin-top */
+    border: 2px solid #ddd; /* Add a border with 2px width and a light gray color */
+    padding: 20px; /* Add padding for spacing between the border and carousel content */
+  }
