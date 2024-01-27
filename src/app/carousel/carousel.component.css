@@ -6,22 +6,53 @@
     width: 800px;
     margin: 30px auto;
   }*/
+/*  
   .picsum-img-wrapper {
-    width: 100%; /* Ensure the wrapper takes up the full width */
-    height: 100%; /* Ensure the wrapper takes up the full height */
-    overflow: hidden; /* Hide any overflow content */
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden; 
   }
   
   .picsum-img-wrapper img {
-    width: 100%; /* Make the image fill the width of its container */
-    height: auto; /* Maintain the aspect ratio */
+    width: 100%; 
+    height: auto; 
   }
   .carousel-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 600px; /* Adjust the max-width to your preference */
-    margin: 100px auto 0; /* Center the container and add margin-top */
-    border: 2px solid #ddd; /* Add a border with 2px width and a light gray color */
-    padding: 20px; /* Add padding for spacing between the border and carousel content */
+    max-width: 600px;
+    margin: 100px auto 0;
+    border: 2px solid #ddd;
+    padding: 20px;
   }
+  */
+  /* carousel.component.css */
+
+/* Center the carousel within its container */
+/* carousel.component.css */
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ngb-carousel {
+  width: 100%; /* Set the width to 100% */
+  max-width: none; /* Ensure there's no max-width restriction */
+}
+
+.carousel-inner {
+  width: 100%; /* Set the width of the carousel inner container to 100% */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 100%; /* Adjust the width as needed */
+}
+
+.carousel-indicators {
+  bottom: -30px;
+}

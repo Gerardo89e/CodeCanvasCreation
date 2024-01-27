@@ -1,0 +1,173 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+body{
+    font-family: 'Nunito', sans-serif;
+    padding: 50px;
+  }
+  .card{
+      border-radius: 4px;
+      background: #fff;
+      box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+        transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 14px 80px 18px 36px;
+    cursor: pointer;
+  }
+  
+  .card:hover{
+       transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  }
+  
+  .card:hover .custom-icon {
+    background: rgba(255, 0, 0, 0.6); /* Change the color as needed */
+  }
+  
+  .card:hover .custom-icon i {
+    background: rgba(0, 0, 255, 0.6); /* Change the color as needed */
+  }
+  .card h3{
+    font-weight: 600;
+  }
+  
+  .card img{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    max-height: 120px;
+  }
+  
+  .card-1{
+    background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
+        background-repeat: no-repeat;
+      background-position: right;
+      background-size: 80px;
+  }
+  
+  .card-2{
+     background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
+        background-repeat: no-repeat;
+      background-position: right;
+      background-size: 80px;
+  }
+  
+  .card-3{
+    background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
+        background-repeat: no-repeat;
+      background-position: right;
+      background-size: 80px;
+  }
+  
+  @media(max-width: 990px){
+    .card{
+      margin: 20px;
+    }
+  } 
+/*
+  .circle-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #03a9f4;
+    background-color: transparent;
+    border: 3px solid #eee;
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  */
+  .circle-icon {
+    font-size: 45px;
+    background: #fff;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    border-radius: 50%;
+    border: 6px solid #ccc;
+    color: #fff;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46);
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    transition: 0.5s;
+  }
+
+  .circle-icon i {
+    font-size: 16px;
+    color: #03a9f4;
+    background-color: #f45703;
+    border: 3px solid #eee;
+    border-radius: 50%;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.6);
+ }
+ .circle-icon i:hover{
+    background:#f45703;
+
+ }
+  /*for icon
+  .circle-icon {
+    font-size: 2em;
+    color: #03a9f4;
+    border-radius: 50%;
+    background-color: #eee;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  }
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-body {
+    text-align: center;
+  }
+  
+  */
+  .custom-icon {
+    font-size:45px;
+    background:#fff;
+    background:rgba(0,0,0,0.4);
+    padding:30px;
+    -webkit-border-radius:1100%;
+    -moz-border-radius:100%;
+    -o-border-radius:100%;
+    border-radius:100%;
+    border:6px solid #ccc;
+    color:#fff;
+      box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46);
+    text-align:center;
+    display:table-cell;
+    vertical-align:middle;
+    width:60px;
+    height:60px;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    -o-transition:.5s;
+    transition:.5s;
+  }
+  .custom-icon:hover {
+    background:#f45703;
+  }
+  .fix-editor {
+    display:none;
+  }
+  .icon-wrapper {
+    display:inline-block;
+  }
