@@ -1,0 +1,32 @@
+/* Your existing styles */
+
+.get-started-banner {
+    padding: 50px 0;
+    background-color: #007bff; /* Background color for the banner */
+    color: #fff; /* Text color */
+  }
+  
+  .get-started-banner h2 {
+    font-size: 1.5rem;
+  }
+  
+  .get-started-banner .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .get-started-banner a.btn-primary {
+    background-color: #fff; /* Button background color */
+    color: #007bff; /* Button text color */
+    border-color: #fff; /* Button border color */
+    margin-top: 10px; /* Adjust the margin-top as needed */
+    
+  }
+  
+  .get-started-banner a.btn-primary:hover {
+    background-color: #fff; /* Button background color on hover */
+    color: #007bff; /* Button text color on hover */
+  }
+  
+  /* Your existing styles */
+  
