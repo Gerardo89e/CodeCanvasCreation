@@ -132,3 +132,11 @@ p,a,h1,h2,h3,h4 {
 .section-team .single-person:hover .speciality {
 	color: #fff;
 }
+/* meet-our-team.component.css */
+
+.single-person .person-image img {
+    width: 100%; /* Set the width to 100% to ensure responsiveness */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 50%; /* Optional: Add a border-radius for rounded images */
+  }
+  
