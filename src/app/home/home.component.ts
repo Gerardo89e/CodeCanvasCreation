@@ -6,6 +6,7 @@ import { MeetOurTeamComponent } from "../../meet-our-team/meet-our-team.componen
 import { GetInTouchComponent } from "../../get-in-touch/get-in-touch.component";
 import { NavbarComponent } from "../navbar/navbar.component";
 import { FooterComponent } from "../../footer/footer.component";
+import { DisplayPortfolioComponent } from "../../display-portfolio/display-portfolio.component";
 
 
 @Component({
@@ -13,7 +14,7 @@ import { FooterComponent } from "../../footer/footer.component";
     standalone: true,
     templateUrl: './home.component.html',
     styleUrl: './home.component.css',
-    imports: [CarouselComponent, ServiceSectionComponent, GetStartedComponent, MeetOurTeamComponent, GetInTouchComponent, NavbarComponent, FooterComponent]
+    imports: [CarouselComponent, ServiceSectionComponent, GetStartedComponent, MeetOurTeamComponent, GetInTouchComponent, NavbarComponent, FooterComponent, DisplayPortfolioComponent]
 })
 export class HomeComponent {
 }

@@ -1,3 +1,4 @@
+/*
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -38,7 +39,7 @@ body {
 }
 
 
-/*new css code below for the tested team cards*/
+new css code below for the tested team cards
 p,a,h1,h2,h3,h4 {
 	margin: 0;
 	padding: 0;
@@ -132,11 +133,167 @@ p,a,h1,h2,h3,h4 {
 .section-team .single-person:hover .speciality {
 	color: #fff;
 }
-/* meet-our-team.component.css */
 
 .single-person .person-image img {
-    width: 100%; /* Set the width to 100% to ensure responsiveness */
-    height: auto; /* Maintain the aspect ratio */
-    border-radius: 50%; /* Optional: Add a border-radius for rounded images */
+    width: 100%; 
+    height: 100%; 
+    border-radius: 50%; 
   }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 200px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card .info {
+    padding: 10px;
+  }
+  
+  .card h2 {
+    margin: 5px 0;
+    font-size: 18px;
+  }
+  
+  .card p {
+    margin: 0;
+    font-size: 14px;
+  }
+  */
+  .team-bg {
+	background-color: #f8f9fa;
+	overflow: hidden;
+}
+.team .section-title {
+	padding-bottom: 40px;
+    text-align: center;
+}
+.team .section-title .main-team-subheading {
+	font-size: 14px;
+	font-weight: 500;
+	padding: 0;
+	line-height: 1px;
+	margin: 0 0 5px 0;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #aaaaaa;
+}
+.team .section-title .main-team-subheading::after {
+	content: "";
+	width: 120px;
+	height: 1px;
+	display: inline-block;
+	background: #556270;
+	margin: 4px 10px;
+}
+.team .main-team-heading {
+	margin: 0;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #556270;
+}
+.team .member {
+	position: relative;
+	box-shadow: 0px 2px 15px rgba(85, 98, 112, 0.08);
+	padding: 30px;
+	border-radius: 4px;
+	background: #fff;
+}
+.team .member .pic {
+    overflow: hidden;
+    width: 190px; /* Adjust this width as needed */
+    height: 190px; /* Adjust this height as needed */
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team .member .pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the entire image is visible within the container */
+    transition: ease-in-out 0.3s;
+}
+.team .member:hover img {
+transform: scale(1.1);
+}
+.team .member .member-info {
+	padding-left: 30px;
+}
+.team .member .member-heading {
+	font-weight: 700;
+	margin-bottom: 5px;
+	font-size: 20px;
+	color: #556270;
+	line-height: 1.2;
+}
+.team .member span {
+	display: block;
+	font-size: 15px;
+	padding-bottom: 10px;
+	position: relative;
+	font-weight: 500;
+}
+.team .member span::after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 50px;
+	height: 1px;
+	background: #dee2e6;
+	bottom: 0;
+	left: 0;
+}
+.team .member .member-para {
+	margin: 10px 0 0 0;
+	font-size: 14px;
+}
+.team .member .social {
+	margin-top: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.team .member .social a {
+	transition: ease-in-out 0.3s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+	width: 32px;
+	height: 32px;
+	background: #8795a4;
+}
+.team .member .social a + a {
+margin-left: 8px;
+}
+.team .member .social a:hover {
+	background: #41A1FD;
+}
+.team .member .social a .team-icon {
+	color: #fff;
+	font-size: 16px;
+	margin: 0 2px;
+}
+.meet-our-team-section {
+    background-color: #fff;
+    padding: 40px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 8px;
+}
+.section-team {
+	font-family: "Poppins", sans-serif;
+	padding: 80px 0;
+}
+  
   
